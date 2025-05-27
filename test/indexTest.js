@@ -1,4 +1,15 @@
 require ( './helpers.js' );
+const {
+  cats,
+  destructivelyAppendCat,
+  destructivelyPrependCat,
+  destructivelyRemoveLastCat,
+  destructivelyRemoveFirstCat,
+  appendCat,
+  prependCat,
+  removeLastCat,
+  removeFirstCat,
+} = require('../index');  // Make sure the path is correct
 
 describe('index.js', function () {
   describe('cats', function () {
